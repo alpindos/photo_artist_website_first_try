@@ -41,14 +41,13 @@ header {
   padding: 60px;
   margin: 0 auto;
 }
-.row {
-  display: flex;
+.menu-images {
+  padding: 20px;
 }
-.column {
-  flex: 33.33%;
-  margin: 6px;
-  padding: 0px;
-  position:relative;
+.container{
+position: relative;
+margin-right: 10px;
+float: left;
 }
 .img-grad:after {
   content:'';
@@ -64,6 +63,8 @@ header {
 .img-text {
   font-family: 'Lobster', cursive;
   color: white;
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 33.33%;
   left: 50%;
